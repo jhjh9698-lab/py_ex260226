@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    # 제목 태그로 이루어진 엘리먼트
+    <h1>뉴스 제목 1</h1>
+    <p>기사 내용입니다 1</p>
+
+    # 아래 형식으로도 css 작성이 가능
+    <style>
+        hi{
+            color : blue;
+        }
+        div {
+            background-color: yellowgreen;
+        }
+
+        div > h1 {
+            color : red;
+        }
+
+     
+    </style>
+    
+    # 링크 이동 엘리먼트
+    <a href="https://www.never.com">네이버로 이동</a>
+
+
+    # 태그 : (이름으로 검색) 이름 -> 동명이인 가능
+    # class : (.으로 검색)별명(여려명이 같은 별명을 가질 수 있음, 
+    #           한명이 여러개 가질 수 있다)
+    # id : (#으로 검색) 주민등록번호 같은것(절대 한 html안에서 같은 아디를 쓸수 없다)
+
+    <div>
+        <h1>class = 'sub_2'>뉴스 제목 2</h1>
+        <p>기사 내용입니다 2</p>
+
+        <h1> class = 'sub_2 sub_2_2' > 뉴스 제목 2-2</h1>
+        <p>기사 내용입니다 2-2</p>
+    </div>
+
+</body>
+</html>
+
